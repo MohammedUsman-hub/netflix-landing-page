@@ -1,4 +1,4 @@
-#bg-img{
-    background-color: #cccccc;
-    background-image: url("./images/netflix-bg.png");
+.bg-img{
+   position: relative;
+   
 }
