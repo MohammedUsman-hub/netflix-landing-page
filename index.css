@@ -9,17 +9,23 @@ body{
 
 .bg-img{
   position: relative;
-  opacity: 50%;
+  opacity: 40%;
   width: 100%;  
   height: 720px;
   border-bottom: solid #383838 8px;
+}
+
+
+.txt-bg{
+    position: relative;
+    bottom: 500px;
 }
 
 .title-1{
     color: white;
     position: relative;
     font-size: 35px;;
-    left: 32%;
+    left: 30%;
     top: 20%;
     font-family: net;
 }
@@ -28,31 +34,53 @@ body{
     color: white;
     padding: 0, 0, 0, 0;
     position: relative;
-    font-size: 30px;;
-    left: 35%;
-    top: 20%;
+    font-size: 30px;
+    left: 39%;
+    bottom: 20px;
     font-family: 'Roboto', sans-serif;
 }
 
-.txt-bg{
+.title-3{
+    color: white;
+    padding: 0, 0, 0, 0;
     position: relative;
-    bottom: 600px;
+    font-size: 30px;
+    left: 36%;
+    bottom: 20px;
+    font-family: 'Roboto', sans-serif;
 }
+
 
 .sign-in{
     color: white;
     background-color: #f51707;
     border-color: #f51707;
-    width: 4%;
-    height: 30px;
+    width: 5%;
+    height: 35px;
     border-radius: 5px;
     position: relative;
-    left: 90%;
+    left: 93%;
     bottom: 1000px;
-    
+    text-align: center;
+    font-size: 17px;
+
 }
 .sign-in:hover{
     background-color: #b01206;
     border-color: #b01206;
     cursor: pointer;
+}
+
+.txt-btn{
+    position: relative;
+
+}
+
+#txt-area{
+    width: 30%;
+    height: 60px;
+}
+
+#get-started{
+
 }
