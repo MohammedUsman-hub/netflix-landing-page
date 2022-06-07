@@ -1,12 +1,15 @@
+/* Inserting font */
 @font-face {
     font-family: net;
     src: url(./fonts/font.ttf);
 }
 
+/* Background color */
 body{
     background-color: black;
 }
 
+/* background image */
 .bg-img{
   position: relative;
   opacity: 40%;
@@ -15,12 +18,13 @@ body{
   border-bottom: solid #383838 8px;
 }
 
-
+/* Div with text in front of background img */
 .txt-bg{
     position: relative;
     bottom: 500px;
 }
 
+/* unlimited films, tv programmes and more */
 .title-1{
     color: white;
     position: relative;
@@ -30,6 +34,7 @@ body{
     font-family: net;
 }
 
+/* watch anywhere, cancel any time */
 .title-2{
     color: white;
     padding: 0, 0, 0, 0;
@@ -40,6 +45,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+/* ready to watch? enter email */
 .title-3{
     color: white;
     padding: 0, 0, 0, 0;
@@ -50,7 +56,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-
+/* sign in button */
 .sign-in{
     color: white;
     background-color: #f51707;
@@ -60,7 +66,7 @@ body{
     border-radius: 5px;
     position: relative;
     left: 93%;
-    bottom: 1000px;
+    bottom: 1050px;
     text-align: center;
     font-size: 17px;
 
@@ -71,16 +77,42 @@ body{
     cursor: pointer;
 }
 
+/* form and get started button DIV */
 .txt-btn{
     position: relative;
-
+    left: 25%;
 }
 
+/* txt box for email */
 #txt-area{
     width: 30%;
     height: 60px;
+    position: relative;
+    left: 3%;
 }
 
+/* red button next to txt box for email */
 #get-started{
+    background-color: #f51707;
+    border-color: #f51707;
+    width: 12%;
+    height: 60px;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    right: 2.3%;
+    top: 3%;
+}
+#get-started:hover{
+    background-color: #b01206;
+    border-color: #b01206;
+    cursor: pointer;
+}
 
+/* logo */
+.logo{
+    position: relative;
+    width: 10%;
+    bottom: 1090px;
+    left: 3%;
 }
