@@ -100,7 +100,7 @@ body{
     color: white;
     font-size: 30px;
     position: relative;
-    right: 2.3%;
+    right: 2.1%;
     top: 3%;
 }
 #get-started:hover{
@@ -115,4 +115,8 @@ body{
     width: 10%;
     bottom: 1090px;
     left: 3%;
+}
+
+::placeholder{
+    font-size: 15px;
 }
