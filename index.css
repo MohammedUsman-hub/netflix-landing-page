@@ -89,6 +89,9 @@ body{
     height: 60px;
     position: relative;
     left: 3%;
+    font-size: 20px;
+    border: solid 1px #8c8c8c;
+   
 }
 
 /* red button next to txt box for email */
@@ -100,13 +103,15 @@ body{
     color: white;
     font-size: 30px;
     position: relative;
-    right: 2.1%;
-    top: 3%;
+    right: 2%;
+    top: 4px;
+   
 }
 #get-started:hover{
     background-color: #b01206;
     border-color: #b01206;
     cursor: pointer;
+
 }
 
 /* logo */
@@ -117,6 +122,190 @@ body{
     left: 3%;
 }
 
+/* placeholder 
 ::placeholder{
-    font-size: 15px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+::placeholder:hover{
+    transform: scale(0.6);
+}*/
+
+
+
+/* DIV 2 */
+#div2{
+    position: relative;
+    bottom: 450px;
+    border-bottom: solid #131313 8px;
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+    height: 25pc;
+
+}
+
+
+#div2-pos{
+    margin-left: 20pc;
+    position: relative;
+    top: 40px;
+}
+
+
+#div2-txt1{
+    font-family: net;
+    font-size: 55px;
+    color: white;  
+    margin-left: 50px;
+}
+
+
+#div2-txt2{
+    color: white; 
+    width: 30%;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+
+#div2-img{
+    position: relative;
+    bottom: 75%;
+    padding-left: 60%;
+}
+
+
+/* DIV 3 */
+#div3{
+    position: relative;
+    bottom: 450px;
+    border-bottom: solid #131313 8px;
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+    height: 25pc;
+
+}
+
+#div3-pos{
+    margin-left: 60%;
+    position: relative;
+    top: 20px;
+    right: 5%;
+}
+#div3-txt1{
+    font-family: net;
+    font-size: 50px;
+    color: white;  
+    margin-left: 50px;
+    width: 90%;
+}
+
+#div3-txt2{
+    color: white; 
+    width: 90%;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+#div3-img{
+    position: relative;
+    bottom: 80%;
+    padding-left: 22%;
+}
+
+
+/* DIV 4 */
+#div4{
+    position: relative;
+    bottom: 450px;
+    border-bottom: solid #131313 8px;
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+    height: 28pc;
+
+}
+
+
+#div4-pos{
+    margin-left: 20pc;
+    position: relative;
+    top: 40px;
+}
+
+
+#div4-txt1{
+    font-family: net;
+    font-size: 55px;
+    color: white;  
+    margin-left: 50px;
+}
+
+
+#div4-txt2{
+    color: white; 
+    width: 30%;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+
+#div4-img{
+    position: relative;
+    bottom: 75%;
+    padding-left: 60%;
+}
+
+
+#div3{
+    position: relative;
+    bottom: 450px;
+    border-bottom: solid #131313 8px;
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+    height: 25pc;
+
+}
+
+
+/* DIV 5 */
+#div5{
+    position: relative;
+    bottom: 450px;
+    border-bottom: solid #131313 8px;
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+    height: 25pc;
+
+}
+
+#div5-pos{
+    margin-left: 60%;
+    position: relative;
+    top: 20px;
+    right: 5%;
+}
+#div5-txt1{
+    font-family: net;
+    font-size: 50px;
+    color: white;  
+    margin-left: 50px;
+    width: 90%;
+}
+
+#div5-txt2{
+    color: white; 
+    width: 90%;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+#div5-img{
+    position: relative;
+    bottom: 70%;
+    padding-left: 22%;
 }
