@@ -62,14 +62,13 @@ body{
     background-color: #f51707;
     border-color: #f51707;
     width: 5%;
-    height: 35px;
     border-radius: 5px;
     position: relative;
     left: 93%;
-    bottom: 1050px;
+    bottom: 65pc;
     text-align: center;
     font-size: 17px;
-
+    padding: 10px 10px;
 }
 .sign-in:hover{
     background-color: #b01206;
@@ -307,5 +306,19 @@ body{
 #div5-img{
     position: relative;
     bottom: 70%;
-    padding-left: 22%;
+    padding-left: 18%;
+}
+
+
+/* Making website responsive */
+
+/* Tablet (ipad mini)*/
+@media only screen and (min-width: 768px){
+    
+}
+
+
+/* Iphone 12 Pro */
+@media only screen and (min-width: 390px){
+
 }
