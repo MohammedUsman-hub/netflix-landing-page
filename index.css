@@ -316,7 +316,7 @@ body{
 /* Making website responsive */
 
 /* Tablet (ipad mini)*/
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 769px){
     
 }
 
@@ -381,8 +381,8 @@ body{
     }
     /* email text area */
     #txt-area{
-        width: 70%;
-        height: 50px;
+        width: 50%;
+        height: 40px;
         position: relative;
         
         font-size: 15px;
