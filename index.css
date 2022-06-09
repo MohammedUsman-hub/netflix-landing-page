@@ -66,6 +66,13 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+
+/* form and get started button DIV */
+.txt-btn{
+    position: relative;
+    left: 27%;
+}
+
 /* sign in button */
 .sign-in{
     color: white;
@@ -86,15 +93,11 @@ body{
     cursor: pointer;
 }
 
-/* form and get started button DIV */
-.txt-btn{
-    position: relative;
-    left: 25%;
-}
+
 
 /* txt box for email */
 #txt-area{
-    width: 30%;
+    width: 25%;
     height: 60px;
     position: relative;
     left: 3%;
@@ -112,7 +115,7 @@ body{
     color: white;
     font-size: 30px;
     position: relative;
-    right: 2%;
+    left: 3%;
     top: 4px;
    
 }
@@ -328,14 +331,22 @@ body{
         color: rgb(255, 255, 255);
         background-color: #f51707;
         border-color: #f51707;
-        width: 13%;
+        width: 15%;
         border-radius: 5px;
         position: relative;
         left: 80%;
-        bottom: 77pc;
+        bottom: 52pc;
         text-align: center;
         font-size: 15px;
         padding: 10px 10px;
+    }
+
+    /* logo */
+    .logo{
+        position: relative;
+        width: 40%;
+        bottom: 55pc;
+        left: 3%;
     }
 
     .bg-img{
@@ -379,15 +390,190 @@ body{
         bottom: 2px;
         font-family: 'Roboto', sans-serif;
     }
+    .txt-btn{
+        position: relative;
+        left: 27%;
+    }
     /* email text area */
     #txt-area{
+        position: relative;
         width: 50%;
         height: 40px;
-        position: relative;
-        
         font-size: 15px;
         border: solid 1px #8c8c8c;
-       
+    }
+    #get-started{
+        position: relative;
+        background-color: #f51707;
+        border-color: #f51707;
+        width: 40%;
+        height: 40px;
+        color: white;
+        font-size: 15px;
+        margin-right: 30px;
+        margin-left: 25px;
+        top: 40px;
     }
 
+
+    /* enjoy on your tv */
+    #div2{
+        position: relative;
+        bottom: 450px;
+        border-bottom: solid #131313 8px;
+        height: 25pc;
+    }
+    
+    
+    #div2-pos{
+        margin-left: 15%;
+        position: relative;
+        top: 20px;
+    }
+    
+    
+    #div2-txt1{
+        font-family: net;
+        font-size: 25px;
+        color: white;  
+        margin-left: 50px;
+    }
+    
+    
+    #div2-txt2{
+        position: relative;
+        right: 10%;
+        color: white; 
+        width: 90%;
+        font-size: 15px;
+    }
+    .tv-img{
+        position: relative;
+        top: 175px;
+        right: 90%;
+        width: 300px;
+    }
+
+
+
+    /* download your programmes to watch offline */
+    #div3{
+        position: relative;
+        bottom: 450px;
+        border-bottom: solid #131313 8px;
+        height: 25pc;
+    }
+    
+    
+    #div3-pos{
+        margin-left: 15%;
+        position: relative;
+        bottom: 9px;
+    }
+    
+    
+    #div3-txt1{
+        font-family: net;
+        font-size: 25px;
+        color: white;  
+        margin-left: 50px;
+    }
+    
+    
+    #div3-txt2{
+        position: relative;
+        right: 1%;
+        color: white; 
+        width: 90%;
+        font-size: 15px;
+    }
+    .tv-img2{
+        position: relative;
+        top: 175px;
+        left: 5%;
+        width: 200px;
+    }
+
+
+
+    /* Watch everywhere */
+    #div4{
+        position: relative;
+        bottom: 500px;
+        border-bottom: solid #131313 8px;
+        height: 25pc;
+    }
+    
+    
+    #div4-pos{
+        margin-left: 15%;
+        position: relative;
+        bottom: 9px;
+    }
+    
+    
+    #div4-txt1{
+        font-family: net;
+        font-size: 25px;
+        color: white;  
+        margin-left: 50px;
+    }
+    
+    
+    #div4-txt2{
+        position: relative;
+        right: 1%;
+        color: white; 
+        width: 80%;
+        font-size: 15px;
+    }
+    .tv-img3{
+        position: relative;
+        top: 175px;
+        right: 75%;
+        width: 250px;
+    }
+
+
+
+
+    /* create accounts for children */
+    #div5{
+        position: relative;
+        bottom: 500px;
+        border-bottom: solid #131313 8px;
+        height: 27pc;
+    }
+    
+    
+    #div5-pos{
+        margin-left: 10%;
+        position: relative;
+        bottom: 9px;
+    }
+    
+    
+    #div5-txt1{
+        font-family: net;
+        font-size: 25px;
+        color: white;  
+        margin-left: 50px;
+    }
+    
+    
+    #div5-txt2{
+        position: relative;
+        left: 5%;
+        color: white; 
+        width: 80%;
+        font-size: 15px;
+    }
+    .tv-img4{
+        position: relative;
+        top: 175px;
+        right: 2%;
+        width: 250px;
+        
+    }
 }
+
