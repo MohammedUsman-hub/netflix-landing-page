@@ -1,3 +1,12 @@
+/*  */
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 /* Inserting font */
 @font-face {
     font-family: net;
@@ -7,6 +16,7 @@
 /* Background color */
 body{
     background-color: black;
+   
 }
 
 /* background image */
@@ -146,7 +156,7 @@ body{
 
 
 #div2-pos{
-    margin-left: 20pc;
+    margin-left: 19pc;
     position: relative;
     top: 40px;
 }
@@ -171,7 +181,7 @@ body{
 #div2-img{
     position: relative;
     bottom: 75%;
-    padding-left: 60%;
+    padding-left: 55%;
 }
 
 
@@ -187,11 +197,13 @@ body{
 
 }
 
+
+
 #div3-pos{
     margin-left: 60%;
     position: relative;
     top: 20px;
-    right: 5%;
+    right: 9%;
 }
 #div3-txt1{
     font-family: net;
@@ -211,7 +223,7 @@ body{
 #div3-img{
     position: relative;
     bottom: 80%;
-    padding-left: 22%;
+    left: 19%;
 }
 
 
@@ -254,20 +266,11 @@ body{
 #div4-img{
     position: relative;
     bottom: 75%;
-    padding-left: 60%;
+    padding-left: 55%;
 }
 
 
-#div3{
-    position: relative;
-    bottom: 450px;
-    border-bottom: solid #131313 8px;
-    display: grid;
-    grid-row: 1;
-    grid-column: 2;
-    height: 25pc;
 
-}
 
 
 /* DIV 5 */
@@ -286,7 +289,7 @@ body{
     margin-left: 60%;
     position: relative;
     top: 20px;
-    right: 5%;
+    right: 9%;
 }
 #div5-txt1{
     font-family: net;
@@ -306,7 +309,7 @@ body{
 #div5-img{
     position: relative;
     bottom: 70%;
-    padding-left: 18%;
+    left: 19%;
 }
 
 
@@ -319,6 +322,72 @@ body{
 
 
 /* Iphone 12 Pro */
-@media only screen and (min-width: 390px){
+@media only screen and (max-width: 391px){
+    
+    .sign-in{
+        color: rgb(255, 255, 255);
+        background-color: #f51707;
+        border-color: #f51707;
+        width: 13%;
+        border-radius: 5px;
+        position: relative;
+        left: 80%;
+        bottom: 77pc;
+        text-align: center;
+        font-size: 15px;
+        padding: 10px 10px;
+    }
+
+    .bg-img{
+        position: relative;
+        opacity: 40%;
+        width: 100%;  
+        height: 600px;
+        border-bottom: solid #383838 8px;
+      }
+
+    .txt-bg{
+        position: relative;
+        bottom: 500px;
+    }
+    /* unlimited films, tv programmes and more. */
+    .title-1{
+        color: white;
+        position: relative;
+        font-size: 15px;;
+        left: 10%;
+        top: 50px;
+        font-family: net;
+    }
+    /* watch anywhere, cancel any time */
+    .title-2{
+        color: white;
+        padding: 0, 0, 0, 0;
+        position: relative;
+        font-size: 20px;
+        left: 19%;
+        top: 28px;
+        font-family: 'Roboto', sans-serif;
+    }
+    /* ready to watch? enter email */
+    .title-3{
+        color: white;
+        padding: 0, 0, 0, 0;
+        position: relative;
+        font-size: 15px;
+        left: 0.5%;
+        bottom: 2px;
+        font-family: 'Roboto', sans-serif;
+    }
+    /* email text area */
+    #txt-area{
+        width: 70%;
+        height: 50px;
+        position: relative;
+        
+        font-size: 15px;
+        border: solid 1px #8c8c8c;
+       
+    }
 
 }
