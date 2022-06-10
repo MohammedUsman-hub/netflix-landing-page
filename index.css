@@ -1,10 +1,13 @@
 /*  */
 html, body{
     width: 100%;
-    min-height: calc(100vh - 480px - 20px);
+    height: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+}
+main{
+    min-height: 100vh;
 }
 
 /* Inserting font */
@@ -280,9 +283,7 @@ body{
     position: relative;
     bottom: 450px;
     border-bottom: solid #131313 8px;
-    display: grid;
-    grid-row: 1;
-    grid-column: 2;
+    
     height: 25pc;
 
 }
@@ -310,41 +311,38 @@ body{
 
 #div5-img{
     position: relative;
-    bottom: 70%;
+    bottom: 52%;
     left: 19%;
 }
 
-
+.div-footer{
+    position: relative;
+    bottom: 35%;
+    
+}
 #footer{
     
     color: rgb(110, 110, 110); 
     background-color: #000000;
     position: relative;
     height: 150px;
-    
     margin-top: -100px;
     clear: both;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding-left: 220px;
-   
+ 
 }
-.call-num{
+/*.call-num{
     font-size: 25px;
     position: relative;
     color: rgb(110, 110, 110);  
-    bottom: 60px;
+    bottom: 450px;
     left: 255px;
-}
+}*/
 
 
 /* Making website responsive */
-
-/* Tablet (ipad mini)*/
-@media only screen and (min-width: 769px){
-    
-}
-
 
 /* Iphone 12 Pro */
 @media only screen and (max-width: 391px){
@@ -596,6 +594,13 @@ body{
         right: 2%;
         width: 250px;
         
+    }
+
+    #footer{
+        display: none;
+    }
+    .call-num{
+        display: none;
     }
 }
 
