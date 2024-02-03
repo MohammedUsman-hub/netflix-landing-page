@@ -958,609 +958,608 @@ body{
 
 @media only screen and (max-width: 1440px){
     html, body{
-        width: 100%;
-        height: 100%;
-        margin: 0px;
-        padding: 0px;
-        overflow-x: hidden;
-    }
-    main{
-        min-height: 100vh;
-    }
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+main{
+    min-height: 100vh;
+}
+
+/* Inserting font */
+@font-face {
+    font-family: net;
+    src: url(./fonts/font.ttf);
+}
+
+/* Background color */
+body{
+    background-color: black;
+}
+
+/* background image */
+.bg-img{
+  position: relative;
+  opacity: 40%;
+  width: 100%;  
+  height: 45pc;
+  border-bottom: solid #383838 8px;
+}
+
+/* Div with text in front of background img */
+.txt-bg{
+    position: relative;
+    bottom: 35pc;
+}
+
+/* unlimited films, tv programmes and more */
+.title-1{
+    color: white;
+    position: relative;
+    font-size: 35px;;
+    left: 23%;
+    top: 20%;
+    font-family: net;
+}
+
+/* watch anywhere, cancel any time */
+.title-2{
+    color: white;
+    padding: 0, 0, 0, 0;
+    position: relative;
+    font-size: 30px;
+    left: 35%;
+    bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ready to watch? enter email */
+.title-3{
+    color: white;
+    padding: 0, 0, 0, 0;
+    position: relative;
+    font-size: 30px;
+    left: 30%;
+    bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* sign in button */
+.sign-in{
+    color: white;
+    background-color: #f51707;
+    border-color: #f51707;
+    width: 6%;
+    border-radius: 5px;
+    position: relative;
+    left: 91%;
+    bottom: 65pc;
+    text-align: center;
+    font-size: 17px;
+    padding: 10px 10px;
+}
+.sign-in:hover{
+    background-color: #b01206;
+    border-color: #b01206;
+    cursor: pointer;
+}
+
+
+/* form and get started button DIV */
+.txt-btn{
+    position: relative;
+    left: 25%;
+    width: 100%;
+}
+
+/* txt box for email */
+#txt-area{
+    width: 25%;
+    height: 60px;
+    position: relative;
+    left: 3%;
+    font-size: 20px;
+    border: solid 1px #8c8c8c;
+   
+}
+
+/* red button next to txt box for email */
+#get-started{
+    background-color: #f51707;
+    border-color: #f51707;
+    width: 14%;
+    height: 60px;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: 3%;
+    top: 4px;
+   
+}
+#get-started:hover{
+    background-color: #b01206;
+    border-color: #b01206;
+    cursor: pointer;
+
+}
+
+/* logo */
+.logo{
+    position: relative;
+    width: 10%;
+    bottom: 1090px;
+    left: 3%;
+}
+
+/* placeholder 
+::placeholder{
+    font-size: 20px;
+    transition: 0.3s;
+}
+::placeholder:hover{
+    transform: scale(0.6);
+}*/
+
+
+
+/* DIV 2 */
+#div2{
+    position: relative;
+    bottom: 450px;
+    border-bottom: solid #131313 8px;
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+    height: 25pc;
+
+}
+
+
+#div2-pos{
+    margin-left: 19pc;
+    position: relative;
+    top: 40px;
+}
+
+
+#div2-txt1{
+    font-family: net;
+    font-size: 55px;
+    color: white;  
+    margin-left: 50px;
+}
+
+
+#div2-txt2{
+    color: white; 
+    width: 30%;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+
+#div2-img{
+    position: relative;
+    bottom: 75%;
+    padding-left: 55%;
+}
+
+
+/* DIV 3 */
+#div3{
+    position: relative;
+    bottom: 450px;
+    border-bottom: solid #131313 8px;
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+    height: 25pc;
+
+}
+
+
+
+#div3-pos{
+    margin-left: 60%;
+    position: relative;
+    top: 20px;
+    right: 9%;
+}
+#div3-txt1{
+    font-family: net;
+    font-size: 50px;
+    color: white;  
+    margin-left: 50px;
+    width: 90%;
+}
+
+#div3-txt2{
+    color: white; 
+    width: 90%;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+#div3-img{
+    position: relative;
+    bottom: 80%;
+    left: 19%;
+}
+
+
+/* DIV 4 */
+#div4{
+    position: relative;
+    bottom: 450px;
+    border-bottom: solid #131313 8px;
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+    height: 28pc;
+
+}
+
+
+#div4-pos{
+    margin-left: 20pc;
+    position: relative;
+    top: 40px;
+}
+
+
+#div4-txt1{
+    font-family: net;
+    font-size: 55px;
+    color: white;  
+    margin-left: 50px;
+}
+
+
+#div4-txt2{
+    color: white; 
+    width: 30%;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+
+#div4-img{
+    position: relative;
+    bottom: 75%;
+    padding-left: 55%;
+}
+
+
+
+
+
+/* DIV 5 */
+#div5{
+    position: relative;
+    bottom: 450px;
+    border-bottom: solid #131313 8px;
     
-    /* Inserting font */
-    @font-face {
-        font-family: net;
-        src: url(./fonts/font.ttf);
-    }
+    height: 25pc;
+
+}
+
+#div5-pos{
+    margin-left: 60%;
+    position: relative;
+    top: 20px;
+    right: 9%;
+}
+#div5-txt1{
+    font-family: net;
+    font-size: 50px;
+    color: white;  
+    margin-left: 50px;
+    width: 90%;
+}
+
+#div5-txt2{
+    color: white; 
+    width: 90%;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+#div5-img{
+    position: relative;
+    bottom: 52%;
+    left: 19%;
+}
+
+.div-footer{
+    position: relative;
+    bottom: 35%;
     
-    /* Background color */
-    body{
-        background-color: black;
-    }
+}
+#footer{
     
-    /* background image */
+    color: rgb(110, 110, 110); 
+    background-color: #000000;
+    position: relative;
+    height: 150px;
+    margin-top: -100px;
+    clear: both;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 220px;
+ 
+}
+/*.call-num{
+    font-size: 25px;
+    position: relative;
+    color: rgb(110, 110, 110);  
+    bottom: 450px;
+    left: 255px;
+}*/
+
+
+/* Making website responsive */
+
+/* Iphone 12 Pro */
+@media only screen and (max-width: 391px){
+    
+    .sign-in{
+        color: rgb(255, 255, 255);
+        background-color: #f51707;
+        border-color: #f51707;
+        width: 15%;
+        border-radius: 5px;
+        position: relative;
+        left: 80%;
+        bottom: 52pc;
+        text-align: center;
+        font-size: 15px;
+        padding: 10px 10px;
+    }
+
+    /* logo */
+    .logo{
+        position: relative;
+        width: 40%;
+        bottom: 55pc;
+        left: 3%;
+    }
+
     .bg-img{
-      position: relative;
-      opacity: 40%;
-      width: 100%;  
-      height: 720px;
-      border-bottom: solid #383838 8px;
-    }
-    
-    /* Div with text in front of background img */
+        position: relative;
+        opacity: 40%;
+        width: 100%;  
+        height: 600px;
+        border-bottom: solid #383838 8px;
+      }
+
     .txt-bg{
         position: relative;
         bottom: 500px;
     }
-    
-    /* unlimited films, tv programmes and more */
+    /* unlimited films, tv programmes and more. */
     .title-1{
         color: white;
         position: relative;
-        font-size: 35px;;
-        left: 30%;
-        top: 20%;
+        font-size: 15px;;
+        left: 10%;
+        top: 50px;
         font-family: net;
     }
-    
     /* watch anywhere, cancel any time */
     .title-2{
         color: white;
         padding: 0, 0, 0, 0;
         position: relative;
-        font-size: 30px;
-        left: 39%;
-        bottom: 20px;
+        font-size: 20px;
+        left: 19%;
+        top: 28px;
         font-family: 'Roboto', sans-serif;
     }
-    
     /* ready to watch? enter email */
     .title-3{
         color: white;
         padding: 0, 0, 0, 0;
         position: relative;
-        font-size: 30px;
-        left: 36%;
-        bottom: 20px;
+        font-size: 15px;
+        left: 0.5%;
+        bottom: 2px;
         font-family: 'Roboto', sans-serif;
     }
-    
-    
-    /* form and get started button DIV */
     .txt-btn{
         position: relative;
         left: 27%;
     }
-    
-    /* sign in button */
-    .sign-in{
-        color: white;
-        background-color: #f51707;
-        border-color: #f51707;
-        width: 5%;
-        border-radius: 5px;
-        position: relative;
-        left: 93%;
-        bottom: 65pc;
-        text-align: center;
-        font-size: 17px;
-        padding: 10px 10px;
-    }
-    .sign-in:hover{
-        background-color: #b01206;
-        border-color: #b01206;
-        cursor: pointer;
-    }
-    
-    
-    
-    /* txt box for email */
+    /* email text area */
     #txt-area{
-        width: 25%;
-        height: 60px;
         position: relative;
-        left: 3%;
-        font-size: 20px;
+        width: 50%;
+        height: 40px;
+        font-size: 15px;
         border: solid 1px #8c8c8c;
-       
     }
-    
-    /* red button next to txt box for email */
     #get-started{
+        position: relative;
         background-color: #f51707;
         border-color: #f51707;
-        width: 12%;
-        height: 60px;
+        width: 40%;
+        height: 40px;
         color: white;
-        font-size: 30px;
-        position: relative;
-        left: 3%;
-        top: 4px;
-       
+        font-size: 15px;
+        margin-right: 30px;
+        margin-left: 25px;
+        top: 40px;
     }
-    #get-started:hover{
-        background-color: #b01206;
-        border-color: #b01206;
-        cursor: pointer;
-    
-    }
-    
-    /* logo */
-    .logo{
-        position: relative;
-        width: 10%;
-        bottom: 1090px;
-        left: 3%;
-    }
-    
-    /* placeholder 
-    ::placeholder{
-        font-size: 20px;
-        transition: 0.3s;
-    }
-    ::placeholder:hover{
-        transform: scale(0.6);
-    }*/
-    
-    
-    
-    /* DIV 2 */
+
+
+    /* enjoy on your tv */
     #div2{
         position: relative;
         bottom: 450px;
         border-bottom: solid #131313 8px;
-        display: grid;
-        grid-row: 1;
-        grid-column: 2;
         height: 25pc;
-    
     }
     
     
     #div2-pos{
-        margin-left: 19pc;
+        margin-left: 15%;
         position: relative;
-        top: 40px;
+        top: 20px;
     }
     
     
     #div2-txt1{
         font-family: net;
-        font-size: 55px;
+        font-size: 25px;
         color: white;  
         margin-left: 50px;
     }
     
     
     #div2-txt2{
-        color: white; 
-        width: 30%;
-        font-size: 20px;
-        margin-left: 40px;
-    }
-    
-    
-    #div2-img{
         position: relative;
-        bottom: 75%;
-        padding-left: 55%;
+        right: 10%;
+        color: white; 
+        width: 90%;
+        font-size: 15px;
     }
-    
-    
-    /* DIV 3 */
+    .tv-img{
+        position: relative;
+        top: 175px;
+        right: 90%;
+        width: 300px;
+    }
+
+
+
+    /* download your programmes to watch offline */
     #div3{
         position: relative;
         bottom: 450px;
         border-bottom: solid #131313 8px;
-        display: grid;
-        grid-row: 1;
-        grid-column: 2;
         height: 25pc;
-    
     }
-    
     
     
     #div3-pos{
-        margin-left: 60%;
+        margin-left: 15%;
         position: relative;
-        top: 20px;
-        right: 9%;
+        bottom: 9px;
     }
+    
+    
     #div3-txt1{
         font-family: net;
-        font-size: 50px;
+        font-size: 25px;
         color: white;  
         margin-left: 50px;
-        width: 90%;
     }
+    
     
     #div3-txt2{
+        position: relative;
+        right: 1%;
         color: white; 
         width: 90%;
-        font-size: 20px;
-        margin-left: 40px;
+        font-size: 15px;
     }
-    
-    #div3-img{
+    .tv-img2{
         position: relative;
-        bottom: 80%;
-        left: 19%;
+        top: 175px;
+        left: 5%;
+        width: 200px;
     }
-    
-    
-    /* DIV 4 */
+
+
+
+    /* Watch everywhere */
     #div4{
         position: relative;
-        bottom: 450px;
+        bottom: 500px;
         border-bottom: solid #131313 8px;
-        display: grid;
-        grid-row: 1;
-        grid-column: 2;
-        height: 28pc;
-    
+        height: 25pc;
     }
     
     
     #div4-pos{
-        margin-left: 20pc;
+        margin-left: 15%;
         position: relative;
-        top: 40px;
+        bottom: 9px;
     }
     
     
     #div4-txt1{
         font-family: net;
-        font-size: 55px;
+        font-size: 25px;
         color: white;  
         margin-left: 50px;
     }
     
     
     #div4-txt2{
-        color: white; 
-        width: 30%;
-        font-size: 20px;
-        margin-left: 40px;
-    }
-    
-    
-    #div4-img{
         position: relative;
-        bottom: 75%;
-        padding-left: 55%;
+        right: 1%;
+        color: white; 
+        width: 80%;
+        font-size: 15px;
     }
-    
-    
-    
-    
-    
-    /* DIV 5 */
+    .tv-img3{
+        position: relative;
+        top: 175px;
+        right: 75%;
+        width: 250px;
+    }
+
+
+
+
+    /* create accounts for children */
     #div5{
         position: relative;
-        bottom: 450px;
+        bottom: 500px;
         border-bottom: solid #131313 8px;
-        
-        height: 25pc;
-    
+        height: 27pc;
     }
+    
     
     #div5-pos{
-        margin-left: 60%;
+        margin-left: 10%;
         position: relative;
-        top: 20px;
-        right: 9%;
+        bottom: 9px;
     }
+    
+    
     #div5-txt1{
         font-family: net;
-        font-size: 50px;
+        font-size: 25px;
         color: white;  
         margin-left: 50px;
-        width: 90%;
     }
+    
     
     #div5-txt2{
+        position: relative;
+        left: 5%;
         color: white; 
-        width: 90%;
-        font-size: 20px;
-        margin-left: 40px;
+        width: 80%;
+        font-size: 15px;
     }
-    
-    #div5-img{
+    .tv-img4{
         position: relative;
-        bottom: 52%;
-        left: 19%;
-    }
-    
-    .div-footer{
-        position: relative;
-        bottom: 35%;
+        top: 175px;
+        right: 2%;
+        width: 250px;
         
     }
+
     #footer{
-        
-        color: rgb(110, 110, 110); 
-        background-color: #000000;
-        position: relative;
-        height: 150px;
-        margin-top: -100px;
-        clear: both;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        padding-left: 220px;
-     
+        display: none;
     }
-    /*.call-num{
-        font-size: 25px;
-        position: relative;
-        color: rgb(110, 110, 110);  
-        bottom: 450px;
-        left: 255px;
-    }*/
-    
-    
-    /* Making website responsive */
-    
-    /* Iphone 12 Pro */
-    @media only screen and (max-width: 391px){
-        
-        .sign-in{
-            color: rgb(255, 255, 255);
-            background-color: #f51707;
-            border-color: #f51707;
-            width: 15%;
-            border-radius: 5px;
-            position: relative;
-            left: 80%;
-            bottom: 52pc;
-            text-align: center;
-            font-size: 15px;
-            padding: 10px 10px;
-        }
-    
-        /* logo */
-        .logo{
-            position: relative;
-            width: 40%;
-            bottom: 55pc;
-            left: 3%;
-        }
-    
-        .bg-img{
-            position: relative;
-            opacity: 40%;
-            width: 100%;  
-            height: 600px;
-            border-bottom: solid #383838 8px;
-          }
-    
-        .txt-bg{
-            position: relative;
-            bottom: 500px;
-        }
-        /* unlimited films, tv programmes and more. */
-        .title-1{
-            color: white;
-            position: relative;
-            font-size: 15px;;
-            left: 10%;
-            top: 50px;
-            font-family: net;
-        }
-        /* watch anywhere, cancel any time */
-        .title-2{
-            color: white;
-            padding: 0, 0, 0, 0;
-            position: relative;
-            font-size: 20px;
-            left: 19%;
-            top: 28px;
-            font-family: 'Roboto', sans-serif;
-        }
-        /* ready to watch? enter email */
-        .title-3{
-            color: white;
-            padding: 0, 0, 0, 0;
-            position: relative;
-            font-size: 15px;
-            left: 0.5%;
-            bottom: 2px;
-            font-family: 'Roboto', sans-serif;
-        }
-        .txt-btn{
-            position: relative;
-            left: 27%;
-        }
-        /* email text area */
-        #txt-area{
-            position: relative;
-            width: 50%;
-            height: 40px;
-            font-size: 15px;
-            border: solid 1px #8c8c8c;
-        }
-        #get-started{
-            position: relative;
-            background-color: #f51707;
-            border-color: #f51707;
-            width: 40%;
-            height: 40px;
-            color: white;
-            font-size: 15px;
-            margin-right: 30px;
-            margin-left: 25px;
-            top: 40px;
-        }
-    
-    
-        /* enjoy on your tv */
-        #div2{
-            position: relative;
-            bottom: 450px;
-            border-bottom: solid #131313 8px;
-            height: 25pc;
-        }
-        
-        
-        #div2-pos{
-            margin-left: 15%;
-            position: relative;
-            top: 20px;
-        }
-        
-        
-        #div2-txt1{
-            font-family: net;
-            font-size: 25px;
-            color: white;  
-            margin-left: 50px;
-        }
-        
-        
-        #div2-txt2{
-            position: relative;
-            right: 10%;
-            color: white; 
-            width: 90%;
-            font-size: 15px;
-        }
-        .tv-img{
-            position: relative;
-            top: 175px;
-            right: 90%;
-            width: 300px;
-        }
-    
-    
-    
-        /* download your programmes to watch offline */
-        #div3{
-            position: relative;
-            bottom: 450px;
-            border-bottom: solid #131313 8px;
-            height: 25pc;
-        }
-        
-        
-        #div3-pos{
-            margin-left: 15%;
-            position: relative;
-            bottom: 9px;
-        }
-        
-        
-        #div3-txt1{
-            font-family: net;
-            font-size: 25px;
-            color: white;  
-            margin-left: 50px;
-        }
-        
-        
-        #div3-txt2{
-            position: relative;
-            right: 1%;
-            color: white; 
-            width: 90%;
-            font-size: 15px;
-        }
-        .tv-img2{
-            position: relative;
-            top: 175px;
-            left: 5%;
-            width: 200px;
-        }
-    
-    
-    
-        /* Watch everywhere */
-        #div4{
-            position: relative;
-            bottom: 500px;
-            border-bottom: solid #131313 8px;
-            height: 25pc;
-        }
-        
-        
-        #div4-pos{
-            margin-left: 15%;
-            position: relative;
-            bottom: 9px;
-        }
-        
-        
-        #div4-txt1{
-            font-family: net;
-            font-size: 25px;
-            color: white;  
-            margin-left: 50px;
-        }
-        
-        
-        #div4-txt2{
-            position: relative;
-            right: 1%;
-            color: white; 
-            width: 80%;
-            font-size: 15px;
-        }
-        .tv-img3{
-            position: relative;
-            top: 175px;
-            right: 75%;
-            width: 250px;
-        }
-    
-    
-    
-    
-        /* create accounts for children */
-        #div5{
-            position: relative;
-            bottom: 500px;
-            border-bottom: solid #131313 8px;
-            height: 27pc;
-        }
-        
-        
-        #div5-pos{
-            margin-left: 10%;
-            position: relative;
-            bottom: 9px;
-        }
-        
-        
-        #div5-txt1{
-            font-family: net;
-            font-size: 25px;
-            color: white;  
-            margin-left: 50px;
-        }
-        
-        
-        #div5-txt2{
-            position: relative;
-            left: 5%;
-            color: white; 
-            width: 80%;
-            font-size: 15px;
-        }
-        .tv-img4{
-            position: relative;
-            top: 175px;
-            right: 2%;
-            width: 250px;
-            
-        }
-    
-        #footer{
-            display: none;
-        }
-        .call-num{
-            display: none;
-        }
+    .call-num{
+        display: none;
     }
+}
 }
 
 @media only screen and (max-width: 810px){
@@ -2195,10 +2194,10 @@ body{
     
     /* background image */
     .bg-img{
-      position: relative;
+      position: absolute;
       opacity: 40%;
       width: 100%;  
-      height: 720px;
+      height: 7pc;
       border-bottom: solid #383838 8px;
     }
     
@@ -2303,7 +2302,7 @@ body{
     /* logo */
     .logo{
         position: relative;
-        width: 10%;
+        width: 30%;
         bottom: 1090px;
         left: 3%;
     }
