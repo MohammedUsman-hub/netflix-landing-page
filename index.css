@@ -1716,9 +1716,7 @@ body{
         position: relative;
         bottom: 450px;
         border-bottom: solid #131313 8px;
-        display: grid;
-        grid-row: 1;
-        grid-column: 2;
+        display: flex;
         height: 25pc;
     
     }
@@ -1726,31 +1724,36 @@ body{
     
     #div2-pos{
         margin-left: 19pc;
-        position: relative;
-        top: 40px;
+        position: absolute;
+        top: 5pc;
     }
     
     
     #div2-txt1{
         font-family: net;
-        font-size: 55px;
+        font-size: 30px;
         color: white;  
-        margin-left: 50px;
+        left: -55%;
+        position: absolute;
+        width: 100%;
     }
     
     
     #div2-txt2{
         color: white; 
-        width: 30%;
-        font-size: 20px;
-        margin-left: 40px;
+        width: 40%;
+        font-size: 15px;
+        position: relative;
+        top: 6pc;
+        left: -50%;
     }
     
     
     #div2-img{
         position: relative;
-        bottom: 75%;
-        padding-left: 55%;
+        top: 3pc;
+        left: -25%;
+        
     }
     
     
