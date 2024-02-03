@@ -1751,9 +1751,9 @@ body{
     
     #div2-img{
         position: relative;
+        width: 25%;
         top: 3pc;
-        left: -25%;
-        
+        left: -20%;
     }
     
     
@@ -1779,10 +1779,12 @@ body{
     }
     #div3-txt1{
         font-family: net;
-        font-size: 50px;
+        font-size: 20px;
         color: white;  
         margin-left: 50px;
         width: 90%;
+        top: 5pc;
+        position: absolute;
     }
     
     #div3-txt2{
@@ -1790,12 +1792,14 @@ body{
         width: 90%;
         font-size: 20px;
         margin-left: 40px;
+        top: 10pc;
+        position: absolute;
     }
     
     #div3-img{
         position: relative;
-        bottom: 80%;
-        left: 19%;
+        bottom: 1pc;
+        left: 10%;
     }
     
     
@@ -1821,24 +1825,30 @@ body{
     
     #div4-txt1{
         font-family: net;
-        font-size: 55px;
+        font-size: 25px;
         color: white;  
-        margin-left: 50px;
+
+        left: -65%;
+        position: absolute;
     }
     
     
     #div4-txt2{
         color: white; 
-        width: 30%;
-        font-size: 20px;
-        margin-left: 40px;
+        width: 50%;
+        font-size: 15px;
+        left: -65%;
+        top: 5pc;
+        position: absolute;
     }
     
     
     #div4-img{
         position: relative;
-        bottom: 75%;
-        padding-left: 55%;
+        bottom: 0pc;
+        position: absolute;
+        left: -20%;
+        bottom: 10%;
     }
     
     
